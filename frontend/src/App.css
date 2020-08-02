@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.list-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.list-item__content{
+  width: 100%;
+  padding-left:1.6rem;
+  margin-left: 2rem;
+  height: 300px
+}
+
+.list-item__contact{
+  display: flex;
+
+}
+
+
+.list-item__image {
+  width:200px;
+  height: 300px
+}
+
+
+.list-item__data {
+  margin: 1.2rem 0 0 0;
+}
+
+.content-container {
+  margin: 0 auto;
+  padding: 0 1.6rem;
+  max-width: 500px;
+}
+
+
+.filters{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 5px; 
+}
+
+.select-status{
+  margin-bottom: 20px;
+}
+
+
+
+.list-item {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.list-item__content{
+  width: 100%;
+  padding-left:1.6rem;
+  margin-left: 2rem;
+  height: 300px
+}
+
+.list-item__contact{
+  display: flex;
+
+}
+
+
+.list-item__image {
+  width:200px;
+  height: 300px
+}
+
+
+.list-item__data {
+  margin: 1.2rem 0 0 0;
+}
+
+.user-info{
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+.greetings{
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+.no-users{
+  text-align: center;
+}
